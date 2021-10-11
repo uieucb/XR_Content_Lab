@@ -5,27 +5,27 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637695153924156976
-    m_Hash: 1955672638
+      ticks: 637695752473445311
+    m_Hash: 2710457655
   m_LockFileStatus:
     m_FilePath: D:/Unity/Projects/XR_content_lab/XR_Content_Lab/XR_Content_Lab/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637695154060060230
-    m_Hash: 3962179228
+      ticks: 637695752843131017
+    m_Hash: 112366303
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
-    - packageId: com.unity.collab-proxy@1.7.1
+    - packageId: com.unity.collab-proxy@1.11.2
       testable: 0
       isDirectDependency: 1
-      version: 1.7.1
+      version: 1.11.2
       source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.collab-proxy@1.7.1
+      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.collab-proxy@1.11.2
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -66,6 +66,10 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -77,9 +81,9 @@ m_PackageAssets:
         - 2.1.0-preview.5
         - 2.1.0-preview.6
         compatible:
-        - 1.7.1
-        - 1.8.0
-        - 1.9.0
+        - 1.11.2
+        - 1.12.5
+        - 1.13.5
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -90,13 +94,9 @@ m_PackageAssets:
         - 2.1.0-preview.3
         - 2.1.0-preview.5
         - 2.1.0-preview.6
-        verified: 1.7.1
-      dependencies:
-      - name: com.unity.nuget.newtonsoft-json
-        version: 2.0.0
-      resolvedDependencies:
-      - name: com.unity.nuget.newtonsoft-json
-        version: 2.0.0
+        verified: 1.11.2
+      dependencies: []
+      resolvedDependencies: []
       keywords:
       - backup
       - cloud
@@ -123,13 +123,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637616921650000000
+      datePublishedTicks: 637679178630000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-        revision: 30ef59f552633de9ff0401db4e73ac89982d4ac0
+        revision: 3bc7fe2ab9acbe4538785fec6100ac17fe9e8da5
         path: 
     - packageId: com.unity.ide.rider@2.0.7
       testable: 0
@@ -210,7 +210,7 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.27
+        version: 1.1.29
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -238,12 +238,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.9
+    - packageId: com.unity.ide.visualstudio@2.0.11
       testable: 0
       isDirectDependency: 1
-      version: 2.0.9
+      version: 2.0.11
       source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.ide.visualstudio@2.0.9
+      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -297,7 +297,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.27
+        version: 1.1.29
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -317,20 +317,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637580705480000000
+      datePublishedTicks: 637613656180000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: c7cd4c6319806423b3d918b3e9599244e3993d41
+        revision: 680e06d94ffca728223ae2cb14bb919cd354e2c1
         path: 
-    - packageId: com.unity.ide.vscode@1.2.3
+    - packageId: com.unity.ide.vscode@1.2.4
       testable: 0
       isDirectDependency: 1
-      version: 1.2.3
+      version: 1.2.4
       source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.ide.vscode@1.2.3
+      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.ide.vscode@1.2.4
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -388,20 +388,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637394922300000000
+      datePublishedTicks: 637660806170000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
-        revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
         path: 
-    - packageId: com.unity.render-pipelines.universal@10.5.0
+    - packageId: com.unity.render-pipelines.universal@10.6.0
       testable: 0
       isDirectDependency: 1
-      version: 10.5.0
+      version: 10.6.0
       source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.render-pipelines.universal@10.5.0
+      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.render-pipelines.universal@10.6.0
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -458,23 +458,23 @@ m_PackageAssets:
         - 10.5.0
         - 10.5.1
         - 10.6.0
+        - 10.7.0
         compatible:
-        - 10.5.0
-        - 10.5.1
         - 10.6.0
-        verified: 10.5.1
+        - 10.7.0
+        verified: 10.6.0
       dependencies:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.render-pipelines.core
-        version: 10.5.0
+        version: 10.6.0
       - name: com.unity.shadergraph
-        version: 10.5.0
+        version: 10.6.0
       resolvedDependencies:
       - name: com.unity.mathematics
         version: 1.1.0
       - name: com.unity.render-pipelines.core
-        version: 10.5.0
+        version: 10.6.0
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.modules.ui
@@ -482,7 +482,7 @@ m_PackageAssets:
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.shadergraph
-        version: 10.5.0
+        version: 10.6.0
       - name: com.unity.searcher
         version: 4.3.2
       keywords:
@@ -504,20 +504,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637550685770000000
+      datePublishedTicks: 637613661830000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 7ff8fd444c179fd9bb380d61f4865be6935b47dd
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: d645e6b498e293626bcb30ec32b652b9f584e9b5
         path: 
-    - packageId: com.unity.test-framework@1.1.27
+    - packageId: com.unity.test-framework@1.1.29
       testable: 0
       isDirectDependency: 1
-      version: 1.1.27
+      version: 1.1.29
       source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.test-framework@1.1.27
+      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.test-framework@1.1.29
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -564,7 +564,6 @@ m_PackageAssets:
         - 1.1.27
         - 1.1.29
         compatible:
-        - 1.1.27
         - 1.1.29
         verified: 1.1.29
       dependencies:
@@ -596,13 +595,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637594751620000000
+      datePublishedTicks: 637647922650000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: c2f2cc9b7ea61d42964257363595dff5e8c47c42
+        revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0
@@ -2856,12 +2855,12 @@ m_PackageAssets:
         url: git@github.com:Unity-Technologies/Unity.Mathematics.git
         revision: 0a3dfafaf606098ea681de4c4be60f3aac63b773
         path: 
-    - packageId: com.unity.render-pipelines.core@10.5.0
+    - packageId: com.unity.render-pipelines.core@10.6.0
       testable: 0
       isDirectDependency: 0
-      version: 10.5.0
+      version: 10.6.0
       source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.render-pipelines.core@10.5.0
+      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.render-pipelines.core@10.6.0
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -2974,11 +2973,11 @@ m_PackageAssets:
         - 10.5.0
         - 10.5.1
         - 10.6.0
+        - 10.7.0
         compatible:
-        - 10.5.0
-        - 10.5.1
         - 10.6.0
-        verified: 10.5.1
+        - 10.7.0
+        verified: 10.6.0
       dependencies:
       - name: com.unity.ugui
         version: 1.0.0
@@ -3002,20 +3001,20 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637550675510000000
+      datePublishedTicks: 637613656840000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 7ff8fd444c179fd9bb380d61f4865be6935b47dd
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: d645e6b498e293626bcb30ec32b652b9f584e9b5
         path: 
-    - packageId: com.unity.shadergraph@10.5.0
+    - packageId: com.unity.shadergraph@10.6.0
       testable: 0
       isDirectDependency: 0
-      version: 10.5.0
+      version: 10.6.0
       source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.shadergraph@10.5.0
+      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.shadergraph@10.6.0
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3125,19 +3124,19 @@ m_PackageAssets:
         - 10.5.0
         - 10.5.1
         - 10.6.0
+        - 10.7.0
         compatible:
-        - 10.5.0
-        - 10.5.1
         - 10.6.0
-        verified: 10.5.1
+        - 10.7.0
+        verified: 10.6.0
       dependencies:
       - name: com.unity.render-pipelines.core
-        version: 10.5.0
+        version: 10.6.0
       - name: com.unity.searcher
         version: 4.3.2
       resolvedDependencies:
       - name: com.unity.render-pipelines.core
-        version: 10.5.0
+        version: 10.6.0
       - name: com.unity.ugui
         version: 1.0.0
       - name: com.unity.modules.ui
@@ -3159,87 +3158,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637550676160000000
+      datePublishedTicks: 637613662270000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/Graphics.git
-        revision: 7ff8fd444c179fd9bb380d61f4865be6935b47dd
-        path: 
-    - packageId: com.unity.nuget.newtonsoft-json@2.0.0
-      testable: 0
-      isDirectDependency: 0
-      version: 2.0.0
-      source: 1
-      resolvedPath: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
-      assetPath: Packages/com.unity.nuget.newtonsoft-json
-      name: com.unity.nuget.newtonsoft-json
-      displayName: Newtonsoft Json
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: 'Newtonsoft Json for use in Unity projects and Unity packages.
-        Currently synced to version 12.0.2.
-
-
-        This package is used for advanced
-        json serialization and deserialization. Most Unity users will be better suited
-        using the existing json tools built into Unity.
-
-        To avoid assembly
-        clashes, please use this package if you intend to use Newtonsoft Json.'
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 1.0.0-preview.2
-        - 1.0.0-preview.3
-        - 1.0.0-preview.4
-        - 1.0.1-preview.1
-        - 1.1.2
-        - 2.0.0-preview
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
-        - 2.0.0
-        - 2.0.1-preview.1
-        compatible:
-        - 1.0.0-preview.2
-        - 1.0.0-preview.3
-        - 1.0.0-preview.4
-        - 1.0.1-preview.1
-        - 1.1.2
-        - 2.0.0-preview
-        - 2.0.0-preview.1
-        - 2.0.0-preview.2
-        - 2.0.0
-        - 2.0.1-preview.1
-        verified: 2.0.0
-      dependencies: []
-      resolvedDependencies: []
-      keywords: []
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637237898320000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-        revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        url: https://github.com/Unity-Technologies/Graphics.git
+        revision: d645e6b498e293626bcb30ec32b652b9f584e9b5
         path: 
     - packageId: com.unity.searcher@4.3.2
       testable: 0
@@ -3320,4 +3245,4 @@ m_PackageAssets:
   m_LocalPackages:
     m_LocalFileStatus: []
 m_ProjectPath: D:/Unity/Projects/XR_content_lab/XR_Content_Lab/XR_Content_Lab/Packages
-m_EditorVersion: 2020.3.15f2 (6cf78cb77498)
+m_EditorVersion: 2020.3.20f1 (41c4e627c95f)
