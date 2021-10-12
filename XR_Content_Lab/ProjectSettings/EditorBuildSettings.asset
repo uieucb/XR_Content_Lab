@@ -11,4 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_manuel/MyScenes/Hi_Menu.unity
     guid: 17322cdeb028f9e4992487ff3ae4024b
-  m_configObjects: {}
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5e0a8aad78fed2141b4322ddbde33d21, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 622a3c4c001e90f4794cc914cacd7eca, type: 2}
