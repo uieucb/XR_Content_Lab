@@ -7,7 +7,9 @@ using UnityEngine.EventSystems;
 
 public class dropdownComPorts : MonoBehaviour
 {
-    public Dropdown dropdown;
+    // public Dropdown dropdown;
+
+    public TMP_Dropdown dropdown;
 
     public TextMeshProUGUI textBox;
 
@@ -40,7 +42,7 @@ public class dropdownComPorts : MonoBehaviour
                 // //Next line assumes button has child with text as first gameobject like button created from GameObject->UI->Button
                 // button.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = port;//Changing text
                 // items.Add(port);
-                dropdown.options.Add(new Dropdown.OptionData() { text = port});
+                dropdown.options.Add(new TMP_Dropdown.OptionData() { text = port});
             }
 
             DropdownItemSelected(dropdown);
@@ -53,7 +55,7 @@ public class dropdownComPorts : MonoBehaviour
     }
 
 
-    void DropdownItemSelected(Dropdown dropdown)
+    void DropdownItemSelected(TMP_Dropdown dropdown)
         {
             int index = dropdown.value;
 
