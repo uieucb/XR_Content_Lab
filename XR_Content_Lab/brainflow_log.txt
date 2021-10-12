@@ -7463,3 +7463,36 @@
 [2021-10-11 22:43:00.248] [board_logger] [debug] sending d to the board
 [2021-10-11 22:43:01.371] [board_logger] [error] Board config error, probably dongle is inserted but Cyton is off.
 [2021-10-11 22:43:01.372] [board_logger] [trace] read Failure: Communications timeout - Device failed to poll Host$$$
+[2021-10-12 09:11:19.588] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-10-12 09:11:19.588] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-10-12 09:11:25.333] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":null,"timeout":0}
+[2021-10-12 09:11:25.333] [board_logger] [error] invalid input json, [json.exception.type_error.302] type must be string, but is null
+[2021-10-12 09:11:27.766] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-10-12 09:11:27.766] [board_logger] [trace] Board object created -1
+[2021-10-12 09:11:27.766] [board_logger] [trace] prepare session
+[2021-10-12 09:11:27.779] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-10-12 09:11:27.832] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-10-12 09:11:27.832] [board_logger] [error] Board with id -1 and the same config already exists
+[2021-10-12 09:11:32.621] [board_logger] [trace] release session
+[2021-10-12 09:11:32.621] [board_logger] [trace] stop stream
+[2021-10-12 09:11:48.317] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-10-12 09:11:48.317] [board_logger] [trace] Board object created -1
+[2021-10-12 09:11:48.317] [board_logger] [trace] prepare session
+[2021-10-12 09:11:48.331] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-10-12 09:11:50.224] [board_logger] [trace] release session
+[2021-10-12 09:11:50.224] [board_logger] [trace] stop stream
+[2021-10-12 09:11:51.745] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-10-12 09:11:51.745] [board_logger] [trace] Board object created 0
+[2021-10-12 09:11:51.745] [board_logger] [error] serial port is empty
+[2021-10-12 09:11:55.011] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-10-12 09:11:55.011] [board_logger] [debug] use dyn lib: D:\Unity\Projects\XR_content_lab\XR_Content_Lab\XR_Content_Lab\GanglionLib.dll
+[2021-10-12 09:11:55.011] [board_logger] [trace] Board object created 1
+[2021-10-12 09:11:55.137] [board_logger] [debug] Library is loaded
+[2021-10-12 09:11:55.137] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-10-12 09:11:55.137] [board_logger] [error] you need to specify dongle port
+[2021-10-12 09:11:56.961] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"","timeout":0}
+[2021-10-12 09:11:56.961] [board_logger] [trace] Board object created -1
+[2021-10-12 09:11:56.961] [board_logger] [trace] prepare session
+[2021-10-12 09:11:56.961] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-10-12 09:12:00.992] [board_logger] [trace] release session
+[2021-10-12 09:12:00.992] [board_logger] [trace] stop stream

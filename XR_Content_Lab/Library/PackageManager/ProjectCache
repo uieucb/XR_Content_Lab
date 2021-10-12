@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637695851539876998
+      ticks: 637696395139827641
     m_Hash: 3493698477
   m_LockFileStatus:
     m_FilePath: D:/Unity/Projects/XR_content_lab/XR_Content_Lab/XR_Content_Lab/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637695851539876998
+      ticks: 637696395139837470
     m_Hash: 924373911
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -2815,6 +2815,7 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -2830,7 +2831,8 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3201,6 +3203,7 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
         compatible:
         - 4.0.0-preview
         - 4.0.0
@@ -3216,6 +3219,7 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
