@@ -11,6 +11,9 @@ public class openbciConnection : MonoBehaviour
     private BoardShim board_shim = null;
     private int sampling_rate = 0;
 
+    public GameObject connect_btn;
+    public GameObject disconnect_btn;
+
     // Start is called before the first frame update
     void startBoard()
     {
@@ -33,6 +36,8 @@ public class openbciConnection : MonoBehaviour
             sampling_rate = BoardShim.get_sampling_rate(board_id);
             Debug.Log("Brainflow streaming was started");
             staticPorts.statusON = true;
+            connect_btn.SetActive(false);
+            disconnect_btn.SetActive(true);
         }
         catch (BrainFlowException e)
         {
@@ -79,6 +84,8 @@ public class openbciConnection : MonoBehaviour
                 Debug.Log(e);
             }
             staticPorts.statusON = false;
+            connect_btn.SetActive(true);
+            disconnect_btn.SetActive(false);
             Debug.Log("Brainflow streaming was stopped");
         }
     }
