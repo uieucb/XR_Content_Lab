@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_manuel/MyScenes/Hi_Menu.unity
+- path: Assets/_bruno/myscenes/SSVEPGame.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
