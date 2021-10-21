@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/_manuel/MyScenes/Hi_Menu.unity
+- path: Assets/P300_Unity/Demo/Scenes/DemoScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

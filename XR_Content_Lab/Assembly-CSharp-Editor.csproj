@@ -37,6 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\LSLEditorIntegration.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\TimeSyncEditor.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\ScriptOrderManagement.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\BuildHooks.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\LSLEditorWindow.cs" />
     <Reference Include="UnityEngine">
         <HintPath>D:\Unity\2020.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
