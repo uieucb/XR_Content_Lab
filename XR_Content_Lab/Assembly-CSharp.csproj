@@ -37,17 +37,19 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\_manuel\MyScripts\createButtons.cs" />
+     <Compile Include="Assets\_bruno\myscripts\ShowValueScript.cs" />
+     <Compile Include="Assets\_bruno\myscripts\changeScene.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
      <Compile Include="Assets\_manuel\MyScripts\openbciConnection.cs" />
      <Compile Include="Assets\_manuel\MyScripts\staticPorts.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\_manuel\MyScripts\chooseBoardGUI.cs" />
+     <Compile Include="Assets\_bruno\myscripts\FlickerSprite.cs" />
      <Compile Include="Assets\_manuel\MyScripts\dropdownComPorts.cs" />
      <Compile Include="Assets\_manuel\MyScripts\ports.cs" />
-     <Compile Include="Assets\_bruno\myscripts\ShowValueScript.cs" />
-     <Compile Include="Assets\_bruno\myscripts\changeScene.cs" />
      <Compile Include="Assets\_bruno\myscripts\backMenu.cs" />
-     <Compile Include="Assets\_bruno\myscripts\FlickerSprite.cs" />
+     <Compile Include="Assets\_bruno\myscripts\FlickerSprite2.cs" />
+     <Compile Include="Assets\_bruno\myscripts\ShowValueScript2.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />

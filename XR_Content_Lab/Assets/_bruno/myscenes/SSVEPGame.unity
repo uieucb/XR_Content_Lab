@@ -1970,6 +1970,7 @@ GameObject:
   - component: {fileID: 942059322}
   - component: {fileID: 942059324}
   - component: {fileID: 942059323}
+  - component: {fileID: 942059325}
   m_Layer: 5
   m_Name: Light2
   m_TagString: Untagged
@@ -2003,14 +2004,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942059321}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ef1b6d5a5f780054282efdcb92219a93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   c1: {r: 0.8018868, g: 0.74514955, b: 0.74514955, a: 1}
   c2: {r: 0.14031957, g: 0.051085785, b: 0.26415092, a: 1}
-  cycleHz: 15
   alwaysOn: 1
 --- !u!212 &942059324
 SpriteRenderer:
@@ -2063,6 +2063,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &942059325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942059321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c5bc29ab47d6de41b447118e2dc1a57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  c1: {r: 0.9339623, g: 0.8590691, b: 0.8590691, a: 1}
+  c2: {r: 0, g: 0, b: 0, a: 0}
+  alwaysOn: 1
 --- !u!1 &1068207625
 GameObject:
   m_ObjectHideFlags: 0
@@ -5145,5 +5160,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   c1: {r: 0.9150943, g: 0.8417141, b: 0.8417141, a: 1}
   c2: {r: 0.21698111, g: 0.13203096, b: 0.13203096, a: 1}
-  cycleHz: 5
   alwaysOn: 1

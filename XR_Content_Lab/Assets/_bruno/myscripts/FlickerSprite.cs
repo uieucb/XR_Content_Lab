@@ -5,7 +5,7 @@ using UnityEngine;
 public class FlickerSprite : MonoBehaviour {
     public Color c1;
     public Color c2;
-    static public float cycleHz; // Hz, the mesurement of cycles.
+    static public float cycleHz=5; // Hz, the mesurement of cycles.
     public bool alwaysOn = true;
 
     private SpriteRenderer _spriteRenderer;

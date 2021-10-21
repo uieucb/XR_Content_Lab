@@ -4493,6 +4493,7 @@ GameObject:
   - component: {fileID: 2003452993}
   - component: {fileID: 2003452992}
   - component: {fileID: 2003452991}
+  - component: {fileID: 2003452994}
   m_Layer: 5
   m_Name: Value2
   m_TagString: Untagged
@@ -4526,7 +4527,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003452989}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f88e9ce83eaa3764c82dab3839286e04, type: 3}
   m_Name: 
@@ -4628,6 +4629,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2003452989}
   m_CullTransparentMesh: 1
+--- !u!114 &2003452994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2003452989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10158dc50453d464c8c7395eaafbf068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2041467004
 GameObject:
   m_ObjectHideFlags: 0
@@ -4852,8 +4865,8 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2003452991}
-        m_TargetAssemblyTypeName: ShowValueScript, Assembly-CSharp
+      - m_Target: {fileID: 2003452994}
+        m_TargetAssemblyTypeName: ShowValueScript2, Assembly-CSharp
         m_MethodName: textUpdate
         m_Mode: 0
         m_Arguments:
