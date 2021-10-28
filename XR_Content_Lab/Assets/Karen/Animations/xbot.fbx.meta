@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: eb1008d35fb885349b4de769146da8db
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 885944232402757753
+    second: Armature|Action
+  - first:
+      74: -9125523489441110064
+    second: Armature|Action.001
+  - first:
+      74: 4864456487366326693
+    second: Armature|Action.002
+  - first:
+      74: 2128604880368672931
+    second: Armature|Point.000Action
+  - first:
+      74: -5773614451933745431
+    second: Armature|Point.000Action.001
+  - first:
+      74: -7420831677865308036
+    second: Armature|Point.001Action
+  - first:
+      74: 3158204577679222289
+    second: Armature|Point.001Action.001
+  - first:
+      74: -4947963782053456143
+    second: Armature|Point.002Action
+  - first:
+      74: 1567835442329937549
+    second: Armature|Point.002Action.001
+  - first:
+      74: 8585178992730136757
+    second: Armature|Point.003Action
+  - first:
+      74: 2576171210516088441
+    second: Armature|Point.003Action.001
+  - first:
+      74: -6086968167974215019
+    second: Armature|Point.004Action
+  - first:
+      74: -9156324944824875855
+    second: Armature|Point.004Action.001
+  - first:
+      74: -5914339681325544901
+    second: Armature|Point.005Action
+  - first:
+      74: 1351104109153065843
+    second: Armature|Point.005Action.001
+  - first:
+      74: 2592034276171393583
+    second: Armature|Point.006Action
+  - first:
+      74: -1858746703046863565
+    second: Armature|Point.006Action.001
+  - first:
+      74: 3527531893774542385
+    second: Armature|Point.007Action
+  - first:
+      74: -5734596718016262219
+    second: Armature|Point.007Action.001
+  - first:
+      74: 159545954167475334
+    second: Armature|Point.008Action
+  - first:
+      74: -7087054880115349339
+    second: Armature|Point.008Action.001
+  - first:
+      74: 4675928137572702915
+    second: Armature|Point.009Action
+  - first:
+      74: 685729356473078133
+    second: Armature|Point.009Action.001
+  - first:
+      74: 7791445323163092375
+    second: Armature|Point.010Action
+  - first:
+      74: 8545910952387725155
+    second: Armature|Point.010Action.001
+  - first:
+      74: 8479950637079836355
+    second: Armature|Point.011Action
+  - first:
+      74: 6748247022092149081
+    second: Armature|Point.011Action.001
+  - first:
+      74: -3815332054544486773
+    second: Armature|Point.012Action
+  - first:
+      74: 5543041146992669784
+    second: Armature|Point.012Action.001
+  - first:
+      74: 1462081594659389311
+    second: Armature|Point.013Action
+  - first:
+      74: -4452314070627840782
+    second: Armature|Point.013Action.001
+  - first:
+      74: -2974520104467578636
+    second: Armature|Point.014Action
+  - first:
+      74: -1789171582456566445
+    second: Armature|Point.014Action.001
+  - first:
+      74: 4479807815607007100
+    second: Armature|Point.015Action
+  - first:
+      74: 8318647229252751490
+    second: Armature|Point.015Action.001
+  - first:
+      74: -7880287256438776279
+    second: Armature|Point.016Action
+  - first:
+      74: -268214012840705806
+    second: Armature|Point.016Action.001
+  - first:
+      74: -5029097803274913032
+    second: Armature|Point.017Action
+  - first:
+      74: 3919320403205510386
+    second: Armature|Point.017Action.001
+  - first:
+      74: -6610293337548032426
+    second: Armature|Point.018Action
+  - first:
+      74: -5674579440924605342
+    second: Armature|Point.018Action.001
+  - first:
+      74: -4986361742781986527
+    second: Armature|Point.019Action
+  - first:
+      74: -7491947667003450372
+    second: Armature|Point.019Action.001
+  - first:
+      74: -7626755794963422979
+    second: Armature|Point.020Action
+  - first:
+      74: -4854714996138140587
+    second: Armature|Point.020Action.001
+  - first:
+      74: -5604249670958541109
+    second: Armature|Point.021Action
+  - first:
+      74: 797153353536893803
+    second: Armature|Point.021Action.001
+  - first:
+      74: -8199793893529096535
+    second: Armature|Point.022Action
+  - first:
+      74: -4317217811321191353
+    second: Armature|Point.022Action.001
+  - first:
+      74: 6679049504316652241
+    second: Armature|Point.023Action
+  - first:
+      74: -5924410384049237988
+    second: Armature|Point.023Action.001
+  - first:
+      74: -9018946064197755092
+    second: Armature|Point.024Action
+  - first:
+      74: 7114889634577422244
+    second: Armature|Point.024Action.001
+  - first:
+      74: -3391119995110404589
+    second: Armature|Point.025Action
+  - first:
+      74: -3683467253348070469
+    second: Armature|Point.025Action.001
+  - first:
+      74: -2324331390513340391
+    second: Armature|Point.026Action
+  - first:
+      74: -1821127352962906169
+    second: Armature|Point.026Action.001
+  - first:
+      74: -8755552148423436366
+    second: Armature|Point.027Action
+  - first:
+      74: 6201296248584158334
+    second: Armature|Point.027Action.001
+  - first:
+      74: 967019142191403081
+    second: Armature|Point.028Action
+  - first:
+      74: -7746500112766692747
+    second: Armature|Point.028Action.001
+  - first:
+      74: -3278123006201988396
+    second: Armature|Point.029Action
+  - first:
+      74: -7760209526074499549
+    second: Armature|Point.029Action.001
+  - first:
+      74: -3839874985723501339
+    second: Armature|Point.030Action
+  - first:
+      74: 2426104054714840490
+    second: Armature|Point.030Action.001
+  - first:
+      74: 192367614836330298
+    second: Armature|Point.031Action
+  - first:
+      74: 6910586259156156476
+    second: Armature|Point.031Action.001
+  - first:
+      74: -3969502827508779812
+    second: Armature|Point.032Action
+  - first:
+      74: -2850701435082545694
+    second: Armature|Point.032Action.001
+  - first:
+      74: -1360055677597138373
+    second: Armature|Point.033Action
+  - first:
+      74: -4262857573611119093
+    second: Armature|Point.033Action.001
+  - first:
+      74: 6652080505156033050
+    second: Armature|Point.034Action
+  - first:
+      74: 8308743975564021671
+    second: Armature|Point.034Action.001
+  - first:
+      74: -607304508183084055
+    second: Armature|Point.035Action
+  - first:
+      74: -6860271464839064036
+    second: Armature|Point.035Action.001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: xbot(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 100, y: 100, z: 100}
+    - name: Spine
+      parentName: xbot(Clone)
+      position: {x: -0.0017636293, y: -0.00043634413, z: -0.00000042038968}
+      rotation: {x: 0.023371879, y: -0.019930046, z: 0.019930046, w: 0.99932945}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Neck
+      parentName: Spine
+      position: {x: -4.307367e-11, y: 0.0055544917, z: 4.6566128e-12}
+      rotation: {x: 0.46312103, y: -0.20542532, z: -0.23280399, w: 0.83013356}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: Face
+      parentName: Neck
+      position: {x: -1.4901161e-10, y: 0.0010917463, z: -3.352761e-10}
+      rotation: {x: 0.0027881956, y: 0.05555486, z: 0.037524734, w: 0.9977464}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: Face_end
+      parentName: Face
+      position: {x: -0, y: 0.00027345683, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_L
+      parentName: xbot(Clone)
+      position: {x: -0.0024893319, y: 0.0032031536, z: 0.0005906105}
+      rotation: {x: 0.9980859, y: 0.026083248, z: -0.02608325, w: 0.04963749}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Forearm_L
+      parentName: Arm_L
+      position: {x: 1.816079e-10, y: 0.0022199228, z: -1.11758706e-10}
+      rotation: {x: 0.5931266, y: 0.13772498, z: 0.7324149, w: -0.30463272}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999994}
+    - name: Forearm_L_end
+      parentName: Forearm_L
+      position: {x: -0, y: 0.0022573743, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Arm_R
+      parentName: xbot(Clone)
+      position: {x: -0.0013520753, y: 0.0036159551, z: -0.00023759007}
+      rotation: {x: 0.8823205, y: 0.32413483, z: -0.3241348, w: 0.10669461}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+    - name: Forearm_R
+      parentName: Arm_R
+      position: {x: 9.3132255e-12, y: 0.0019991307, z: -3.958121e-11}
+      rotation: {x: 0.85572994, y: 0.14669183, z: -0.18857475, w: -0.45896345}
+      scale: {x: 0.99999994, y: 1.0000005, z: 1.0000001}
+    - name: Forearm_R_end
+      parentName: Forearm_R
+      position: {x: -0, y: 0.0019662702, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thigh_L
+      parentName: xbot(Clone)
+      position: {x: -0.002144172, y: -0.0004945874, z: 0.0002571392}
+      rotation: {x: 0.98878163, y: -0.101622365, z: 0.10162236, w: 0.04070344}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+    - name: Leg_L
+      parentName: Thigh_L
+      position: {x: -1.2107193e-10, y: 0.0032362342, z: 3.7252902e-11}
+      rotation: {x: 0.034882825, y: -0.19750485, z: 0.005256633, w: 0.979667}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Foot_L
+      parentName: Leg_L
+      position: {x: -3.5855918e-10, y: 0.0042248294, z: 1.8626451e-11}
+      rotation: {x: 0.026733005, y: 0.07378154, z: -0.000032431843, w: 0.99691606}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+    - name: Foot_L_end
+      parentName: Foot_L
+      position: {x: -0, y: 0.0012111033, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Thigh_R
+      parentName: xbot(Clone)
+      position: {x: -0.0013830864, y: -0.00037810206, z: -0.000257982}
+      rotation: {x: 0.9485241, y: 0.21925713, z: -0.2192571, w: 0.06445668}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Leg_R
+      parentName: Thigh_R
+      position: {x: 1.4471879e-10, y: 0.0031116235, z: -4.0090525e-11}
+      rotation: {x: 0.10475483, y: -0.18579188, z: 0.113984294, w: 0.9703172}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: Foot_R
+      parentName: Leg_R
+      position: {x: -5.5879353e-11, y: 0.003252311, z: 0}
+      rotation: {x: -0.1387852, y: 0.038493343, z: -0.16082923, w: 0.9764174}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Foot_R_end
+      parentName: Foot_R
+      position: {x: -0, y: 0.0009200697, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -36,22 +36,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Karen\Scripts\shooting\enemy.cs" />
+     <Compile Include="Assets\Karen\Scripts\shooting\playmode.cs" />
+     <Compile Include="Assets\Karen\Scripts\shooting\SpawnObject.cs" />
+     <Compile Include="Assets\Karen\Scripts\shooting\PlayerWeapon.cs" />
+     <Compile Include="Assets\Karen\Scripts\shooting\Bullet.cs" />
      <Compile Include="Assets\_manuel\MyScripts\createButtons.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+     <Compile Include="Assets\Karen\Scripts\shooting\playerconfig.cs" />
      <Compile Include="Assets\_manuel\MyScripts\openbciConnection.cs" />
      <Compile Include="Assets\_manuel\MyScripts\staticPorts.cs" />
      <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
      <Compile Include="Assets\_manuel\MyScripts\chooseBoardGUI.cs" />
      <Compile Include="Assets\_manuel\MyScripts\dropdownComPorts.cs" />
-     <Compile Include="Assets\_manuel\MyScripts\ports.cs" />
-     <Compile Include="Assets\Karen\Scripts\shooting\playmode.cs" />
-     <Compile Include="Assets\Karen\Scripts\shooting\PlayerWeapon.cs" />
-     <Compile Include="Assets\Karen\Scripts\shooting\Bullet.cs" />
      <Compile Include="Assets\Karen\Scripts\ingresarda.cs" />
-     <Compile Include="Assets\Karen\Scripts\shooting\SpawnObject.cs" />
+     <Compile Include="Assets\_manuel\MyScripts\ports.cs" />
      <Compile Include="Assets\Karen\Scripts\readcsv.cs" />
-     <Compile Include="Assets\Karen\Scripts\shooting\playerconfig.cs" />
-     <Compile Include="Assets\Karen\Scripts\shooting\enemy.cs" />
+     <Compile Include="Assets\Karen\Scripts\neo4jconexion.cs" />
      <None Include="Assets\Karen\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Karen\Objetos\Objetos\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -319,6 +320,30 @@
     </Reference>
     <Reference Include="brainflow">
         <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\brainflow.dll</HintPath>
+    </Reference>
+    <Reference Include="Neo4j.Driver.Simple">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\Neo4j.Driver.Simple.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\Microsoft.VisualBasic.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Neo4jClient">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\Neo4jClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Neo4j.Driver">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\Neo4j.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Neo4j.Driver.Simple 1">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\Neo4j.Driver.Simple 1.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>C:\Users\asus\Documents\GitHub\XR_Content_La\XR_Content_Lab\Assets\Karen\Plugins\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.20f1\Editor\Data\MonoBleedingEdge\lib\mono\4.7.1-api\mscorlib.dll</HintPath>

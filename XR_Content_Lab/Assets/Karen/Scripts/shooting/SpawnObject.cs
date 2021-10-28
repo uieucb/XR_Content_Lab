@@ -60,7 +60,7 @@ public class SpawnObject : MonoBehaviour
 
 
     void OnDrawGizmosSelected(){
-        Gizmos.color=new Color(27,5,0,0.5f);
+        Gizmos.color=new Color(27,100,100,0.5f);
         Gizmos.DrawCube(center, size);
     }
 
