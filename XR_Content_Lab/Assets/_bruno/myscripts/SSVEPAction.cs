@@ -38,4 +38,32 @@ public class SSVEPAction : MonoBehaviour
         //SceneManager.LoadScene(scenename);
 
     }
+
+    public void DeactivateImage()
+    {
+
+        //flckr = GetObject<Light1fgfgf>;
+
+        //flckr = GetObject<Light1>;
+
+        flick.SetActive(true);
+        img.SetActive(false);
+
+        //SceneManager.LoadScene(scenename);
+
+    }
+
+    public void DeactivateImage2()
+    {
+
+        //flckr = GetObject<Light1fgfgf>;
+
+        //flckr = GetObject<Light1>;
+
+        flick2.SetActive(true);
+        img2.SetActive(false);
+
+        //SceneManager.LoadScene(scenename);
+
+    }
 }
