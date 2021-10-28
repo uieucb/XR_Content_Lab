@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class FlickerBallScript : MonoBehaviour
 {
-    public Renderer rend;
-
+    //public Renderer rend;
+    private Renderer rend;
     bool oddeven;
     static public float cycleHz=5;
     void Start()
     {
+        //CHECK IF OBJECT HAS RENDERER 
+        //IF IT DOES NOT HAVE RENDERER, SEND A MESSAGE
+        //UPDATE CYCLEHZ
         rend = GetComponent<Renderer>();
         rend.enabled = true;
     }
