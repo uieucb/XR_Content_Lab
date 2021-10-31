@@ -47,7 +47,12 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\TimeSyncEditor.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\LSLEditorIntegration.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\LSLEditorWindow.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\BuildHooks.cs" />
      <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+     <Compile Include="Assets\P300_Unity\LSL4Unity\Editor\ScriptOrderManagement.cs" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -288,14 +293,38 @@
  <Reference Include="brainflow">
  <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/brainflow.dll</HintPath>
  </Reference>
+ <Reference Include="Neo4j.Driver.Simple">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/Neo4j.Driver.Simple.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.VisualBasic">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/Microsoft.VisualBasic.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Plastic.Antlr3.Runtime">
  <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Neo4jClient">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/Neo4jClient.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="Neo4j.Driver">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/Neo4j.Driver.dll</HintPath>
  </Reference>
  <Reference Include="log4netPlastic">
  <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
  </Reference>
+ <Reference Include="Neo4j.Driver.Simple 1">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/Neo4j.Driver.Simple 1.dll</HintPath>
+ </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.render-pipelines.core@10.6.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Extensions">
+ <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Assets/Karen/Plugins/System.Threading.Tasks.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="unityplastic">
  <HintPath>C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
