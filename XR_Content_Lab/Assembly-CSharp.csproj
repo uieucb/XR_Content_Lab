@@ -53,6 +53,7 @@
      <Compile Include="Assets\Karen\Scripts\ingresarda.cs" />
      <Compile Include="Assets\_manuel\MyScripts\ports.cs" />
      <Compile Include="Assets\Karen\Scripts\readcsv.cs" />
+     <Compile Include="Assets\Karen\Scripts\FlickerBallScript.cs" />
      <None Include="Assets\Karen\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
      <None Include="Assets\Karen\Objetos\Objetos\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
