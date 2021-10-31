@@ -11,12 +11,13 @@ public class dropdownComPorts : MonoBehaviour
 
     public TMP_Dropdown dropdown;
 
-    public TextMeshProUGUI textBox;
+    // public TextMeshProUGUI textBox;
 
     void Start()//Creates a button and sets it up
     {
        instantiateButton();
     }
+
     public void OnClick()
     {
             staticPorts.connect = true;
@@ -28,8 +29,6 @@ public class dropdownComPorts : MonoBehaviour
 
         dropdown.options.Clear();
 
-        List<string> items = new List<string>();
-      
 
         if (staticPorts.ports_names.Length > 0)
         {
@@ -48,9 +47,6 @@ public class dropdownComPorts : MonoBehaviour
             DropdownItemSelected(dropdown);
            dropdown.onValueChanged.AddListener(delegate {DropdownItemSelected(dropdown);});
         }
-
-        
-        
 
     }
 
