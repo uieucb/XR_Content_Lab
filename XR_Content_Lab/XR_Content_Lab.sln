@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{3cbdf472-52ba-cdd9-0e4a-04f1efcfeb96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR", "Oculus.VR.csproj", "{1d83503d-f149-fa66-d78d-db0fedbd7ac8}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{ec2de407-cde8-ff0e-ba2f-b221cdea18fd}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR.Editor", "Oculus.VR.Editor.csproj", "{034e5116-f854-6b23-6bd5-209a753c00fb}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oculus.VR.Scripts.Editor", "Oculus.VR.Scripts.Editor.csproj", "{64d5bf6f-f9fb-1ca3-7835-578a9446e9b6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,8 +18,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3cbdf472-52ba-cdd9-0e4a-04f1efcfeb96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3cbdf472-52ba-cdd9-0e4a-04f1efcfeb96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1d83503d-f149-fa66-d78d-db0fedbd7ac8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1d83503d-f149-fa66-d78d-db0fedbd7ac8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ec2de407-cde8-ff0e-ba2f-b221cdea18fd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ec2de407-cde8-ff0e-ba2f-b221cdea18fd}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{034e5116-f854-6b23-6bd5-209a753c00fb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{034e5116-f854-6b23-6bd5-209a753c00fb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64d5bf6f-f9fb-1ca3-7835-578a9446e9b6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64d5bf6f-f9fb-1ca3-7835-578a9446e9b6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
