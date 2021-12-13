@@ -1,0 +1,234 @@
+Base path: 'D:/Unity/2020.3.24f1/Editor/Data', plugins path 'D:/Unity/2020.3.24f1/Editor/Data/PlaybackEngines'
+Cmd: initializeCompiler
+
+Cmd: compileSnippet
+  insize=1931 file=Packages/com.unity.barracuda/Barracuda/Runtime/Core/Resources/Barracuda/PixelShaders/Barracuda/UpsampleBilinear2D pass=<Unnamed Pass> cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 rsLen=0 pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=BATCHTILLING_OFF dKW=BATCHTILLING_ON UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_COLORSPACE_GAMMA UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30 flags=0 lang=0 type=Vertex platform=d3d11 reqs=33 mask=6 start=13 ok=1 outsize=682
+
+Cmd: compileComputeKernel
+  insize=68861 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dMobile.compute kernel=Conv2D_Winograd_2x2_Kernel3x3_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<OUTPUT_SHAPE=2>,<KERNEL_SHAPE=3>,<USELDS=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Conv2dMobile.compute(37): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=68861 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dMobile.compute kernel=DepthwiseConv2D_Winograd_2x2_Kernel3x3_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<OUTPUT_SHAPE=2>,<KERNEL_SHAPE=3>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Conv2dMobile.compute(37): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Asinh_CNyx_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Acos_Nyxc_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Pow_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Exp_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=HardSigmoid_CNyx_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Swish_Nyxc_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Selu_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Relu_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Sin_FlatStrict cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Atan_Loop cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Acosh_Flat cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Pow_FlatStrict cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Softplus_Loop cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Floor_Flat cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Resample2D_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Conv2DTrans_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Dense_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=MaxPool2D_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=ScaleBias_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=StridedSlice_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=TransposeToChannelFirst cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Neg_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Swish_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=HardSigmoid_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Selu_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Acosh_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Cos_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Clip_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=BroadcastSub_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=BroadcastMax_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=BroadcastEqual_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Sign_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=ReduceSum_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=90806 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/BarracudaReferenceImpl.compute kernel=Pad2DEdge_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at BarracudaReferenceImpl.compute(212): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=14141 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Generic.compute kernel=InstanceNormTail_Flat_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Generic.compute(28): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=14141 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Generic.compute kernel=ReshapeFromNHWCModel_Flat_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Generic.compute(28): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=11086 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationBase.compute kernel=Sinh_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationBase.compute(248): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=78289 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Dense.compute kernel=Dense_Tilled2x2_Cached cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Dense.compute(19): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=78289 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Dense.compute kernel=Dense_V_L1Cached64 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Dense.compute(19): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1053 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast_NCHW.compute kernel=BroadcastMin_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Broadcast_NCHW.compute(21): Couldn't open include file 'Broadcast.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=326 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationB.compute kernel=HardSigmoid_Flat cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationB.compute(12): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=779 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dA_NHWC.compute kernel=Conv2D_RegisterBlock4x2_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Conv2dA_NHWC.compute(15): Couldn't open include file 'Conv2d.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3399 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dBase.compute kernel=Conv2DTrans_KernelCached_K5x5_T16x16_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<MAX_KERNEL_SIZE=5>,<GROUP_SIZE_X=16>,<GROUP_SIZE_Y=16>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Conv2dBase.compute(33): Couldn't open include file 'Conv2d.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1053 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast_NHWC.compute kernel=BroadcastLogicalXor_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Broadcast_NHWC.compute(20): Couldn't open include file 'Broadcast.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=68861 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dMobile.compute kernel=Conv2D_Default_T8x8_R4x4_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Conv2dMobile.compute(37): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1053 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Broadcast_NHWC.compute kernel=BroadcastMax_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Broadcast_NHWC.compute(20): Couldn't open include file 'Broadcast.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=1969 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/DenseFP16.compute kernel=DenseFP16Div2_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at DenseFP16.compute(3): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3399 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dBase.compute kernel=Conv2DKernelKxK_StrictC4StrictK16_T2x32_R8x8_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=0>,<BLOCK_SIZE=8>,<KERNEL_PER_TG=16>,<STRICT_CHANNELS=1>,<SUFFIX=KernelKxK_StrictC4StrictK16_T2x32_R>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Conv2dBase.compute(33): Couldn't open include file 'Conv2d.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=781 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Conv2dA_NCHW.compute kernel=Conv2D_RegisterBlock4x2_NCHW cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<CHANNELS_FIRST=1>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Conv2dA_NCHW.compute(16): Couldn't open include file 'Conv2d.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=15676 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Reduce.compute kernel=PartialReduceMax cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<LOOP=0>,<REDUCEMAX=1>,<PARTIALSUFFIX=PartialReduceMax>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Reduce.compute(31): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=78289 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Dense.compute kernel=DenseTiled16x16 cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Dense.compute(19): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=15676 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Reduce.compute kernel=PartialReduceProd cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<LOOP=0>,<REDUCEPROD=1>,<PARTIALSUFFIX=PartialReduceProd>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Reduce.compute(31): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=21238 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Dense3.compute kernel=Dense3_T8x8_R8x8_NHWC cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<BLOCK_SIZE=8>,<KERNEL_PER_TG=64>,<CHANNELS_FIRST=0>,<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Dense3.compute(10): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=3270 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/Transpose.compute kernel=Transpose8D cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at Transpose.compute(6): Couldn't open include file 'Tensor.cginc'.
+ ok=0 outsize=0
+
+Cmd: compileComputeKernel
+  insize=747 file=C:/Users/asus/Documents/GitHub/XR_Content_La/XR_Content_Lab/Library/PackageCache/com.unity.barracuda@956eb962af/Barracuda/Runtime/Core/Resources/Barracuda/ActivationA.compute kernel=Tanh_Flat cachingPP=1 ppOnly=0 stripLineD=0 buildPlatform=19 km=<UNITY_VERSION=202039> pKW=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_RGBM_ENCODING uKW=SHADER_STAGE_COMPUTE platform=d3d11 flags=0  error: 2 plat 25 at ActivationA.compute(33): Couldn't open include file 'Activation.cginc'.
+ ok=0 outsize=0
+
