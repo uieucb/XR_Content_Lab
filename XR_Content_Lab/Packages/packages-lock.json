@@ -1,5 +1,25 @@
 {
   "dependencies": {
+    "com.unity.barracuda": {
+      "version": "https://github.com/Unity-Technologies/barracuda-release.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.burst": "1.6.0",
+        "com.unity.modules.jsonserialize": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "hash": "956eb962af2e1185a87027c6eb2f03eba3db2ef7"
+    },
+    "com.unity.burst": {
+      "version": "1.6.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.mathematics": "1.2.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.collab-proxy": {
       "version": "1.11.2",
       "depth": 0,
@@ -40,8 +60,8 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.mathematics": {
-      "version": "1.1.0",
-      "depth": 1,
+      "version": "1.2.1",
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/_bruno/myscenes/SSVEPMenu.unity
     guid: 785e0575e5f61814ea06b5801a562e02
   - enabled: 0
-    path: Assets/_bruno/myscenes/SSVEPGame.unity
-    guid: e52ad5036555c0c4da143f5d493e05ba
-  - enabled: 1
-    path: Assets/_bruno/myscenes/SSVEPGameButtons.unity
-    guid: d04488e7b379575439fe7abd143c0280
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   m_configObjects: {}
