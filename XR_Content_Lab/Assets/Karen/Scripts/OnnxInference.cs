@@ -29,7 +29,7 @@ public class OnnxInference : MonoBehaviour
         //matriz=new float[1,8];
         for (int i = 1; i<= 1; i++)
             {
-                for (int j = 1; j < 8; j++)
+                for (int j = 1; j < 375; j++)
                 {
                     t1[i, j] = 2.3f;
                 }
@@ -38,7 +38,7 @@ public class OnnxInference : MonoBehaviour
 
         for (int i = 1; i<= 1; i++)
             {
-                for (int j = 1; j < 8; j++)
+                for (int j = 1; j < 375; j++)
                 {
                     print(t1[i, j]);
                 }
@@ -67,12 +67,12 @@ public class OnnxInference : MonoBehaviour
             print("entre aqui");
         }
         }*/
-        string path = "Assets/Karen/Models/knn_test.onnx";
+        string path = "Assets/Karen/Models/knnn.onnx";
         InferenceSession session = new InferenceSession(path);
         DenseTensor<float> T1;
 
-        float[,] Predict_input = new float[2, 8];
-        Predict_input[0, 0] = 6.0f;
+        float[,] Predict_input = new float[3,375];
+      /* Predict_input[0, 0] = 6.0f;
         Predict_input[0, 1] = 148.0f;
         Predict_input[0, 2] = 72.0f;
         Predict_input[0, 3] = 35.0f;
@@ -88,7 +88,15 @@ public class OnnxInference : MonoBehaviour
         Predict_input[1, 4] = 0.0f;
         Predict_input[1, 5] = 0.6f;
         Predict_input[1, 6] = 0.627f;
-        Predict_input[1, 7] = 0.0f;
+        Predict_input[1, 7] = 0.0f;*/
+        
+        for (int i = 1; i< 3; i++)
+            {
+                for (int j = 1; j < 375; j++)
+                {
+                    Predict_input[i, j] = 2.3f;
+                }
+            }
 
 
         T1 = Predict_input.ToTensor();
@@ -99,7 +107,9 @@ public class OnnxInference : MonoBehaviour
 
         foreach (var name in inputMeta.Keys)
         {
-          inputs1.Add(NamedOnnxValue.CreateFromTensor<float>(name, T1));
+            print("entre");
+            print(name);
+            inputs1.Add(NamedOnnxValue.CreateFromTensor<float>(name, T1));
         }
         try
         {
@@ -107,10 +117,14 @@ public class OnnxInference : MonoBehaviour
             var results = session.Run(inputs1); //IDisposableReadOnlyCollection<DisposableNamedOnnxValue> 
             // dump the results
             var inferenceResult = results.ToList()[0];
+            
             var inferenceResult_Value = inferenceResult.Value;
+            print(inferenceResult_Value);
             var Output = session.Run(inputs1).ToList().First().AsEnumerable<NamedOnnxValue>();
-            //debo cambiar el segundo para cambiar el valor de salida
-            var Test = results.ToList()[0].AsTensor<long>().ToArray<long>()[0].ToString();
+            print(Output+"es el output");
+            //second
+            print(results.ToList()[0]);
+            var Test = results.ToList()[0].AsTensor<string>().ToArray<string>()[0].ToString();
             print(Test);
         }catch (Exception e){
             print("error"+e);
